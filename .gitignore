@@ -1,6 +1,7 @@
 misc/
 cover_letters/
 cv/
+*.swp
 *.run.xml
 *.aux
 *.glo
