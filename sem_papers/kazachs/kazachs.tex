@@ -1,73 +1,16 @@
-\documentclass[12pt,headsepline,a4paper]{scrartcl}
-\usepackage[OT2,T1]{fontenc}
-\usepackage[ngerman]{babel}
-\usepackage[
-backend = bibtex8,
-bibencoding = utf8,
-defernumbers=true,
-natbib = true,
-style = verbose-ibid, 
-maxnames = 2,
-minnames = 1,
-backref = true,
-backrefstyle = two, 
-]{biblatex} 
+\documentclass{../../sem_paper}
 \addbibresource{kazachs.bib}
-\usepackage[utf8]{inputenc}
-\usepackage{scrpage2}  %<---
-\usepackage{bibentry}
-\usepackage[onehalfspacing]{setspace}
-\usepackage[a4paper]{geometry}
-\geometry{left=3cm,right=3cm,top=2cm, bottom=2cm}
-\pagestyle{scrheadings}%<
-\clearscrheadfoot
-\chead{\leftmark}
-\automark[section]{section} 
-\rohead{\pagemark}
-
 
 \begin{document}
-\begin{titlepage}
-\date{}
-\author{}
+\titlepg{Die Unabhängigkeit Kasachstans 1985-1991}
+{2012}{Fachbereich Geschichte}
+{Übung 54-242 "`Geschiche und Identität in zentralasiatischen Filmen 1985-1991"'}
+{WS 2011/2012}
+{Moritz Florin}
 
-\title{\Large Die Unabhängigkeit Kasachstans 1985-1991}
-{\let\newpage\relax\maketitle}
+\tocpaper
 
-\begin{center}
-\vfill
-Hausarbeit\\
-vorgelegt von\\
-Igor Fischer \\
-\null
-Hamburg 2012
-\vfill
-\end{center}
-
-\begin{minipage}{0.5\textwidth}
-\begin{flushleft} 
-Universität Hamburg
-Fachbereich Geschichte\\
-Übung 54-242 „Geschichte und Identität in zentralasiatischen Filmen, 1945-2011“\\
-Wintersemester 2011/12\\
-Moritz Florin\\
-\end{flushleft}
-\end{minipage}
-\vline
-\begin{minipage}{0.5\textwidth}
-\end{minipage}
-
-\pagenumbering{gobble}
-\end{titlepage}
-
-\tableofcontents
-\thispagestyle{empty}
-\pagenumbering{arabic}
-\newpage
-
-\section*{Einleitung}
-\markboth{Einleitung}{Einleitung}
-\addcontentsline{toc}{section}{Einleitung}
+\closuresection{Einleitung}
 
 Es gibt zur Zeit wohl kein Land in Zentralasien, dem eine größere Aufmerksamkeit
 geschenkt wird, als Kasachstan. Die Gründe dafür sind vielfältig: Kasachstan ist sehr
@@ -97,9 +40,8 @@ Außerdem sollen bestimmte Entwicklungen in Kasachstan dargestellt werden. Diese
 Darstellung orientiert sich an den Dezember-Unruhen in Almaty 1986 sowie an den
 Argumenten, mit denen Kritiker und Befürworter einer Unabhängigkeit ihren
 Standpunkt vertraten.
-\newpage
 
-\section{Zeit vor der Perestroika in der UdSSR}
+\npsection{Zeit vor der Perestroika in der UdSSR}
 Der Auflösung der UdSSR 1991 gingen mehr als zwei Jahrzehnte wirtschaftlicher
 und politischer Stagnation voraus.
 \subsection{Politische Entwicklung}
@@ -258,10 +200,9 @@ ihre Unabhängigkeit von der Sowjetunion erklärt und Kasachstan folgte dem als 
 Land. Es sei am Rande bemerkt, dass nicht nur in Kasachstan die Stimmung in der
 Bevölkerung mehrheitlich für den Erhalt der Sowjetunion war, sondern auch in den
 meisten anderen Sowjetrepubliken.
-
 \end{enumerate}
-\section*{Schlussbetrachtung}
-\addcontentsline{toc}{section}{Schlussbetrachtung}
+
+\closuresection{Schlussbetrachtung}
 Zusammenfassend lässt sich aus der vorliegenden Arbeit sagen, dass die
 Unabhängigkeit
 Kasachstans
@@ -278,9 +219,6 @@ gegeben hat: 1986 gehörten die Kasachen zu den ersten, die gegen die Sowjetunio
 protestierten. 1991 war Kasachstan dagegen die letzte Republik, die ihre
 Unabhängigkeit ausrief. Dies ist ein weiterer Beweis für eine gewisse Besonderheit
 Kasachstans in der Geschichte der Sowjetunion.
-\newpage
 
-\addcontentsline{toc}{section}{Literatur}
-%\bibliography
-\printbibliography
+\literature
 \end{document}

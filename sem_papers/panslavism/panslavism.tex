@@ -1,77 +1,19 @@
-\documentclass[12pt,headsepline,a4paper]{scrartcl}
-\usepackage[OT2,T1]{fontenc}
-\usepackage[russian,ngerman]{babel}
-\usepackage[
-backend = bibtex8,
-bibencoding = utf8,
-defernumbers=true,
-natbib = true,
-style = verbose-ibid, 
-maxnames = 2,
-minnames = 1,
-backref = true,
-backrefstyle = two, 
-]{biblatex} 
+\documentclass{../../sem_paper}
 \addbibresource{panslavism.bib}
-\usepackage[utf8]{inputenc}
-\usepackage{scrpage2}  %<---
-\usepackage{bibentry}
-\usepackage[onehalfspacing]{setspace}
-\usepackage[a4paper]{geometry}
-\newcommand\textcyr[1]{{\fontencoding{OT2}\fontfamily{wncyr}\selectfont #1}}
-\geometry{left=3cm,right=3cm,top=2cm, bottom=2cm}
-\pagestyle{scrheadings}%<
-\clearscrheadfoot
-\chead{\leftmark}
-\automark[section]{section} 
-\rohead{\pagemark}
-\title{}
-\author{}
 
 \begin{document}
-\begin{titlepage}
-\date{}
 
-\title{\Large Der Panslawismus in der ersten Hälfte des 19.
-Jahrhunderts}
-{\let\newpage\relax\maketitle}
+\titlepg
+{Der Panslawismus in der ersten Hälfte des 19. Jahrhunderts}
+{2012}
+{Fachbereich Geschichte}
+{Einführungseminar II "`Russischer Imperialismus"'}
+{SS 2011}
+{Kristina Küntzel-Witt}
+\tocpaper
 
-\begin{center}
-\vfill
-Hausarbeit\\
-vorgelegt von\\
-Igor Fischer \\
-\null
-Hamburg 2012
-\vfill
-\end{center}
+\closuresection{Einleitung}
 
-\begin{minipage}{0.5\textwidth}
-\begin{flushleft} 
-Universität Hamburg\\
-Fachbereich Geschichte\\
-Einführungsseminar II „Russischer Imperialismus“\\
-Sommersemester 2011\\
-Dozentin: Frau Dr. Küntzel-Witt\\
-
-\end{flushleft}
-\end{minipage}
-\vline
-\begin{minipage}{0.5\textwidth}
-\end{minipage}
-
-\pagenumbering{gobble}
-\end{titlepage}
-
-\tableofcontents
-\thispagestyle{empty}
-\pagenumbering{arabic}
-\newpage
-
-
-\section*{Einleitung}
-\markboth{Einleitung}{Einleitung}
-\addcontentsline{toc}{section}{Einleitung}
 \subsection*{Panslawismus in Gegenwart und Geschichte}
 Slovio – ein Wort, das Zeuge eines Phänomens namens Panslawismus ist, welches vor
 ungefähr 200 Jahren entwickelt wurde und das man heute vielleicht zur Geschichte erklären
@@ -156,8 +98,7 @@ Faktoren, die zur weiteren Entwicklung einer Idee führten und schließlich stan
 Frage, wie sich die anderen slawischen Völker zur jeweiligen Ausprägung der panslawischen
 Idee verhielten.
 
-\newpage
-\section{Grundlage und Ursprung der panslawischen Idee}
+\npsection{Grundlage und Ursprung der panslawischen Idee}
 
 \subsection{Herders Ansichten zu den Slawen}
 Im Folgenden soll auf die Grundlage der panslawischen Idee referiert werden, die ihren
@@ -215,7 +156,8 @@ vertretenen Ideen auf die kulturelle Einheit der Slawen zusammen mit Russland be
 der Folge des wachsenden Pangermanismus und des Nationalismus in Europa fand die Idee
 einer volksübergreifenden slawischen Identität besonders bei den kleinen slawischen Völkern
 mehr und mehr Anhänger und wurde politisch weiterentwickelt.
-\section{Ausprägungen der panslawischen Idee}
+
+\npsection{Ausprägungen der panslawischen Idee}
 \subsection{Austroslawismus}
 Man kann wohl sagen, dass sich die slawische Idee in Österreich sehr interessant entwickeln
 musste, denn innerhalb der österreichischen Grenzen gab es eine Vielzahl von slawischen
@@ -596,10 +538,9 @@ des 19. Jahrhunderts, als auch die Serben und die Bulgaren übernationale Ambiti
 entwickelten. Die Bulgaren strebten zum Beispiel in der zweiten Hälfte des 19. Jahrhunderts
 ein Großbulgarien an. Die politische Führungsriege der Serben wollte dagegen selbst das
 Zentrum der südslawischen Völker werden und ein Großserbisches Reich errichten.\autocite[84]{shidak}
+
 \newpage
-\section*{Schlussbetrachtung}
-\markboth{Schlussbetrachtung}{Schlussbetrachtung}
-\addcontentsline{toc}{section}{Schlussbetrachtung}
+\closuresection{Schlussbetrachtung}
 \subsection*{Zusammenfassung}
 Welchen Eindruck gewinnt man in der vorliegenden Arbeit vom Panslawismus? Man könnte
 unter Berücksichtigung der vielfältigen Ausprägungen dieser Idee der folgenden
@@ -704,6 +645,5 @@ Tschechen und die Slowaken scheint die Forschung fortgeschritten zu sein, andere
 Völker wie die Sorben, Russinen und Mazedonier wurden nach meinem Eindruck bisher noch
 nicht zum Gegenstand der Forschung gemacht.
 
-\addcontentsline{toc}{section}{Literatur}
-\printbibliography
+\literature
 \end{document}

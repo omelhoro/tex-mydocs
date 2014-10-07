@@ -1,108 +1,18 @@
-\documentclass[12pt,headsepline,a4paper]{scrartcl}
-\usepackage{lmodern}
-\usepackage{float}
-\usepackage{graphicx}
-\usepackage{booktabs} 
-\usepackage[OT2,T1]{fontenc}
-\usepackage[utf8]{inputenc}
-\usepackage[russian,ngerman]{babel}
-\usepackage[babel,german=guillemets]{csquotes}
-\usepackage{paralist} 
-\usepackage{multirow}
-\usepackage{tabularx}
-\usepackage{amsfonts}
-\usepackage{blindtext}
-\usepackage[
-backend = bibtex8,
-bibencoding = utf8,
-defernumbers=true,
-natbib = true,
-style = verbose-ibid, 
-maxnames = 2,
-minnames = 1,
-backref = true,
-backrefstyle = two, 
-]{biblatex} 
+\documentclass{../../sem_paper}
 \addbibresource{brest-litovsk.bib}
-\usepackage{qtree}
-\usepackage{algpseudocode}
-\usepackage{algorithm}
-\usepackage{ragged2e}
-\usepackage{fancyvrb}
-\usepackage{tipa} 
-\usepackage[german]{fancyref} 
-\usepackage{caption}
-\newcommand\textcyr[1]{{\fontencoding{OT2}\fontfamily{wncyr}\selectfont #1}}
-\usepackage{microtype} 
-\usepackage[onehalfspacing]{setspace}
-%\usepackage[paper=a4paper,margin=1in]{geometry}
-\usepackage[a4paper]{geometry}
-\geometry{left=3cm,right=3cm,top=2cm, bottom=2cm}
-\usepackage{tikz}
-\newcommand\labialized[2][]{\tikz[overlay]\node[draw=black,inner sep=2pt, anchor=text, rectangle,rounded corners=2mm,#1] {#2};\phantom{#2}}
-\usepackage{bibentry}
-%\geometry{left=2.5cm,right=2.5cm,top=2cm, bottom=2cm}
-%\newcommand\autocite[1]{\cite}
-%\DeclareNameFormat{labelname}{\textsc{#1}}
-\usepackage{scrpage2}  %<---
-\pagestyle{scrheadings}%<
-\clearscrheadfoot
-
-\chead{\leftmark}
-\automark[section]{section} 
-\rohead{\pagemark}
 
 \begin{document}
-\begin{titlepage}
-\date{}
+\titlepg
+{Außenpolitik der Bolschewiki von der Novemberrevolution bis zum Frieden von Brest-Litowsk: Konzept oder Pragmatismus?}
+{2014}
+{Fachbereich Geschichte}
+{Hauptseminar 54-329 "`Osteuropa im Ersten Weltkrieg"'}
+{SS 2012}
+{Frank Golczewski}
 
- 
-%\textsc{\Large Vergleich der Silbenmodelle des Russischen mit Hilfe eines Natural Language Processing-Ansatzes}\\[0.5cm]
+\tocpaper
 
-% \normalsize{
-\title{\Large Außenpolitik der Bolschewiki von der Novemberrevolution bis zum Frieden von Brest-Litowsk: Konzept oder Pragmatismus?}
-{\let\newpage\relax\maketitle}
-
-
-\begin{center}
-\vfill
-Hausarbeit\\
-vorgelegt von\\
-Igor Fischer \\
-\null
-Hamburg 2014
-\vfill
-\end{center}
-
-\begin{minipage}{0.5\textwidth}
-\begin{flushleft} 
-Fachbereich Geschichte\\
-Hauptseminar 54-329 "`Osteuropa im Ersten Weltkrieg"' \\
-Sommersemester 2012\\
-Prof. Dr. Frank Golczewski
-\end{flushleft}
-\end{minipage}
-\vline
-\begin{minipage}{0.5\textwidth}
-\begin{flushright} 
-\end{flushright}
-\end{minipage}
-
-%\noindent
-
-\pagenumbering{gobble}
-\end{titlepage}
-
-\tableofcontents
-\thispagestyle{empty}
-\pagenumbering{arabic}
-
-\newpage
-
-\section*{Einleitung}
-\markboth{Einleitung}{Einleitung}
-\addcontentsline{toc}{section}{Einleitung}
- 
+\closuresection{Einleitung}
 "`The forgotten peace"'-- so betitelte John Wheeler-Bennett 1956\autocite{wheeler1956} sein Buch zum Frieden von Brest-Litowsk. Dies galt aber wohl nur für die westliche Seite, da der Versailler Vertrag sehr viel umfänglicher war und zudem den ersteren für nichtig erklärte. Auf der sowjetischen Seite entdeckte man in den Verhandlungen so etwas wie eine Goldgrube. Zuerst um bestimmte Bolschewiki zu verunglimpfen\footnote{Dies lässt sich zum Beispiel lesen bei \fullcite{bailey1955}. Der Ngram Corpus von Google gibt auch interessante Ergebnisse: Suchbegriff: "`\textcyr{сорвать Брестский мир}"', Korpus: Russisch (2009). Ähnlich interessant ist es, mit Hilfe einer Wildcard zu suchen: "`\textcyr{* Брестский мир}"'}, später um sie für die friedlichen Absichten der Sowjets und Gier des Kapitalismus als Beweis herzuhalten\footnote{Als Beispiel: \fullcite{chuba1964}, \fullcite{maio1954} und \fullcite{osad1969}}.
 Mit der Öffnung von Archiven war auch im Westen der Weg für tiefere Forschungen geöffnet. Besonders in den 90ern führte dies dazu, dass Brest-Litowsk zum wichtigen Bestandteil von Studien über sowjetische Außenpolitik\footnote{Als Beispiele: \fullcite{kenzie1994} und \fullcite{petro21997}} wurde. Der Perestroika und  dem Zusammenbruch der Sowjetunion folgten auch russische Arbeiten, die nicht mehr unter ideologischen Zwängen standen\footnote{\fullcite{pand1990} und \fullcite{fels_1992} . Das letzte Werk wird im Folgenden in der englischen Fassung verwendet.}.
   
@@ -122,9 +32,7 @@ Innerhalb der 4 Ansätze von McFadden\autocite{fadden1993}, die er als "`researc
 \\\\
 In der gesamten Arbeit wird der westliche (gregorianische) Kalender  verwendet, was die Revolutionen jeweils im März und November stattfinden lässt. Alle neu eingeführten Personen sollen mit vollem Namen und Lebensdaten genannt werden. Patronym wird abgekürzt; als Nachname wird bei Bolschewiki der "`Kampfname"' genommen. Danach wird auf die Personen nur mit Nachnamen referiert.
 
-
-\newpage
-\section{Die konzeptuelle Ausgangslage}
+\npsection{Die konzeptuelle Ausgangslage}
 
 \subsection{Außenpolitische Konzepte vor der Revolution}
 \label{sec: for_policy}
@@ -204,8 +112,7 @@ An der Wortwahl wird klar, dass sich das Dekret nicht primär an Regierungen wen
 сознательным рабочим трех самых передовых  наций}"'\autocite[16]{dekret}. Der gesamte letzte Absatz listet Errungenschaften der Arbeiter in England, Frankreich und Deutschland auf. Außerdem werden die Arbeiter in die Pflicht genommen, die arbeitenden Massen von Sklaverei und Ausbeutung zu befreien.
 Es lassen sich damit starke Parallelen zu den Konzepten der Bolschewiki vor der Revolution feststellen.
 
-\newpage
-\section{Die Verhandlungen in Brest-Litowsk}
+\npsection{Die Verhandlungen in Brest-Litowsk}
 
 \subsection{Politische Entwicklung nach der Märzrevolution}
 Obwohl die Außenpolitik in Russland die ersten 2 Kriegsjahre von der Innenpolitik eher getrennt war, wurden die Proteste in Russland mehr und mehr von der Kriegsfrage dominiert. Dies führte zu Streiks und staatlichen Gegenreaktionen in Form von harschen Polizeieinsätzen mit Toten. Nach dem Sturz des Zaren, kam  die bürgerliche Provisorischen Regierung an die Macht, die es sich mit den Sowjets (in der damaligen Terminologie: Räte, die Gruppen wie Soldaten und Arbeiter  repräsentierten) teilen musste. Auch durch Druck der Allierten wollte die Provisorische Regierung den Krieg nicht beenden, sondern setzte alles auf eine Offensive in Galizien (westliche Ukraine), die allerdings verloren wurde. Im September bedrängte ein Vormarsch des Generals Lawr G. Kornilow (1870-1918) die Provisorische Regierung und die Sowjets in St. Petersburg (damals Petrograd). Erst mit Hilfe der Sowjets sowie inhaftierter Soldaten konnte sich die Provisorische Regierung retten. Nach einem Anwachsen der Unzufriedenheit konnte die Bolschewistische Partei die Provisorische Regierung stürzen und die Macht übernehmen. Als Machtzentrum etablierte sich das Zentralkomitee der Bolschewiki, das sich aus 13-15 stimmberechtigten Mitgliedern zusammensetzte.
@@ -238,8 +145,7 @@ Nach einigen Tagen gaben die Mittelmächte ein Ultimatum durch, das das Zentralk
 
 Der Vertrag sah vor, dass Russland Polen, das Baltikum sowie die Ukraine aufgibt und sämtliche Propaganda einstellt. Die Armee musste demobilisiert werden. Es mussten auch Reparationszahlungen geleistet werden. Durch den Vertrag verlor Russland 1/4 seiner Bevölkerung und fast 3/4 seiner Kohle- und Eisenproduktion\autocite[89]{rauch1990}.
 
-\newpage
-\section{Konzept oder Pragmatismus?}
+\npsection{Konzept oder Pragmatismus?}
 
 \subsection{Konzeptuelles Vorgehen}
 Wie lassen sich die ersten Schritte der Bolschewiki in der Außenpolitik begründen? Das Friedensdekret kann man als Fortführung der theoretischen Linie sehen, nämlich die Arbeiter zu animieren und die Weltrevolution mit einem Weltfrieden zu verbinden. Es sollte durch die Veröffentlichung der geheimen Dokumente die Regierungen bloßstellen und war nicht zuletzt durch die Forderung der Selbstbestimmung der Völker keine Option für die an Kolonien reiche Entente (außer USA). Gleichzeitig stimme ich zu, der demokratische Frieden "`\textcyr{был продиктован прагмачитескими соображениями большевисткого руководства: показать капиталистическому окружению демократический характер новой рождавшийся России [\ldots]}"'\autocite{maka2010}.\footnote{Man muss aber Makarenko in einem anderen Punkt widersprechen. Denn das Dekret war keine Antwort auf Wilsons 14-Punkte Programm, da es zeitlich davor datiert. Insofern ist es nicht richtig, zu denken, dass das Dekret ein Vorbild hatte.}
@@ -277,8 +183,7 @@ Erst als sich Trockij mit seiner Position irrte (keine Revolution in Deutschland
 Diese genannten Gründe sind die Erklärung hinter der Reaktion auf den deutschen Vormarsch und der Mehrheit für Lenins Position auf den Sitzungen des Zentralkomitees, aber auch ein Beweis, dass die Pragmatisierung der Außenpolitik das Konzept der Weltrevolution nicht verdrängte.
 
 \newpage
-\section*{Abschließende Worte und Ausblick}
-\addcontentsline{toc}{section}{Abschließende Worte und Ausblick}
+\closuresection{Abschließende Worte und Ausblick}
 Wie kann man nun die erbrachten Ergebnisse verstehen? Im ersten Teil wurde dargestellt, welche Konzepte zur Außenpolitik es gab. Tatsächlich könnte man sich zur Meinung verführen lassen, dass es keine Konzepte gab. Vor der Machtübernahme dachte man in bolschewistischen Kreisen, dass zeitig nach der Machtübernahme in Russland auch die Weltrevolution beginnen wird. Dazu passt ein Ausspruch von Trockij: "`\textcyr{Какая такая у нас будет дипломатическая работа? [\ldots] вот издам несколько революционных прокламаций к народам и закрою лавочку}"'\footnote{\textcyr{Моя жизнь,}http://www.magister.msk.ru/library/trotsky/trotl026.htm\#st28}
 Damit lässt sich auch die These\autocite[389]{pipes1992} von Pipes belegen, nach der die bolschewistische Diplomatie eine Absage an die über Jahrhunderte praktizierte Diplomatie Europas war. Das Friedensdekret zeigte genau das. Durch seine Art war es nicht an Regierungen, sondern an das Proletariat gerichtet.
 
@@ -302,27 +207,6 @@ Die Ergebnisse der Arbeit konnten eine herausgehobene Rolle von Lenin in der Par
 Am vordringlichsten erscheint aber eine Zusammenführung der russischen/sowjetischen sowie der westlichen Historiographie. Die benutzte Literatur baut, wie ich gemerkt habe, in Bezug auf Sekundärquellen eher auf der einen oder anderen Seite auf. 
 
 %Der Zeitraum, den die vorliegende Arbeit bearbeitet hat, ist de facto der Beginn der sowjetischen Außenpolitik. Dieses "`the first crisis of soviet diplomacy"' brachte für folgende Periode der Diplomatie mehrere Erkenntnisse: 
- 
-\newpage
 
-\addcontentsline{toc}{section}{Literatur}
-%\bibliography
-\printbibliography
-\newpage
-{\Large Eidesstattliche Versicherung}
-
-Ich versichere an Eides Statt durch meine eigene Unterschrift, dass ich die vorliegende Arbeit
-selbständig und ohne fremde Hilfe angefertigt und alle Text-Stellen, die wörtlich oder
-annähernd wörtlich aus Veröffentlichungen entnommen sind, als solche kenntlich gemacht
-und mich auch keiner anderen als der angegebenen Literatur, insbesondere keiner im
-Quellenverzeichnis nicht benannten Internet-Quellen, bedient habe. Diese Versicherung
-bezieht sich auch auf die in der Arbeit gelieferten Zeichnungen, Skizzen, bildlichen
-Darstellungen und desgleichen.
-
-Ich versichere, diese Arbeit nicht bereits in einem anderen Prüfungsverfahren eingereicht zu
-haben.
-
-
-
-
+\literature
 \end{document}

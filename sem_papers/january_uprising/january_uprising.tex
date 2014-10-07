@@ -1,76 +1,19 @@
-\documentclass[12pt,headsepline,a4paper]{scrartcl}
-\usepackage[OT2,T1]{fontenc}
-\usepackage[ngerman]{babel}
-\usepackage[
-backend = bibtex8,
-bibencoding = utf8,
-defernumbers=true,
-natbib = true,
-style = verbose-ibid, 
-maxnames = 2,
-minnames = 1,
-backref = true,
-backrefstyle = two, 
-]{biblatex} 
+\documentclass{../../sem_paper}
 \addbibresource{january_uprising.bib}
-\usepackage[utf8]{inputenc}
-\usepackage{scrpage2}  %<---
-\usepackage{bibentry}
-\usepackage[onehalfspacing]{setspace}
-\usepackage[a4paper]{geometry}
-\geometry{left=3cm,right=3cm,top=2cm, bottom=2cm}
-\pagestyle{scrheadings}%<
-\clearscrheadfoot
-\chead{\leftmark}
-\automark[section]{section} 
-\rohead{\pagemark}
-\title{}
-\author{}
 
 \begin{document}
-\begin{titlepage}
-\date{}
-
-\title{\Large Quellenanalyse von „The Polish National Committee's
+\titlepg
+{Quellenanalyse von „The Polish National Committee's
 Proclamation of January 22, 1863“}
-{\let\newpage\relax\maketitle}
+{2011}
+{Fachbereich Geschichte}
+{Einführungsseminar I "`Russischer Imperialismus"'}
+{WS 2010/2011}
+{Kristina Küntzel-Witt}
 
-\begin{center}
-\vfill
-Hausarbeit\\
-vorgelegt von\\
-Igor Fischer \\
-\null
-Hamburg 2011
-\vfill
-\end{center}
+\tocpaper
 
-\begin{minipage}{0.5\textwidth}
-\begin{flushleft} 
-Universität Hamburg\\
-Fachbereich Geschichte\\
-Einführungsseminar zum Thema „Russischer Imperialismus“\\
-Wintersemester 2010 / 2011\\
-Frau Dr. Küntzel-Witt\\
-
-\end{flushleft}
-\end{minipage}
-\vline
-\begin{minipage}{0.5\textwidth}
-\end{minipage}
-
-\pagenumbering{gobble}
-\end{titlepage}
-
-\tableofcontents
-\thispagestyle{empty}
-\pagenumbering{arabic}
-\newpage
-
-
-\section*{Einleitung}
-\markboth{Einleitung}{Einleitung}
-\addcontentsline{toc}{section}{Einleitung}
+\closuresection{Einleitung}
 Polen heute: Es ist ein Land mit 40 Millionen Einwohnern, ein fester Bestandteil der Europäischen
 Union, eine der größeren Volkswirtschaften Europas und außerdem Mitglied der NATO.
 Polen 1863: Ein Land, das auf der Landkarte nicht existiert. Polen ist ein kleiner Teil des riesigen
@@ -108,8 +51,7 @@ Manifest vertreten sind und was die Quelle an inhaltlichen Eigenschaften enthäl
 Im Schlussteil werden die Resultate zusammengefasst und ein kurzer Überblick über die Zeit nach
 dem Manifest gegeben.
 
-\newpage
-\section{Inhaltsangabe}
+\npsection{Inhaltsangabe}
 Das am 22. Januar 1863 veröffentlichte Manifest wird in der Forschungsliteratur als Beginn des
 Januaraufstandes gewertet. Inhaltlich ist es bestimmt von einem kämpferischen Ton. So ist am
 Anfang die Rede von einer verachtenswerten Regierung, die junge Männer in den Militärdienst
@@ -328,9 +270,7 @@ darauf hin, dass die Verfasser des Manifestes es einerseits allen recht machen w
 aber kaum die grundlegenden Eigenschaften der einzelnen Gruppen zu berücksichtigen wussten.
 
 \newpage
-\section*{Schlussbetrachtung}
-\markboth{Schlussbetrachtung}{Schlussbetrachtung}
-\addcontentsline{toc}{section}{Schlussbetrachtung}
+\closuresection{Schlussbetrachtung}
 
 Die Quellenbeschreibung hat Aufschluss darüber gegeben, dass wesentliche Elemente der stilistischen und
 in Teilen auch der inhaltlichen Aussagen eindeutig an das polnische Volk adressiert sind. Betonen
@@ -378,6 +318,5 @@ Für die Russen war es deswegen auch ein Leichtes den Aufstand zu zerstreuen. Da
 Reform der Landverhältnisse zu Gunsten der Bauern notwendig, die vom Russischen Reich im
 März 1864 im Kongress Polen inauguriert wurde.
 
-\addcontentsline{toc}{section}{Literatur}
-\printbibliography
+\literature
 \end{document}

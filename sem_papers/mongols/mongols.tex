@@ -1,74 +1,18 @@
-\documentclass[12pt,headsepline,a4paper]{scrartcl}
-\usepackage[OT2,T1]{fontenc}
-\usepackage[ngerman]{babel}
-\usepackage[
-backend = bibtex8,
-bibencoding = utf8,
-defernumbers=true,
-natbib = true,
-style = verbose-ibid, 
-maxnames = 2,
-minnames = 1,
-backref = true,
-backrefstyle = two, 
-]{biblatex} 
+\documentclass{../../sem_paper}
 \addbibresource{mongols.bib}
-\usepackage[utf8]{inputenc}
-\usepackage{scrpage2}  %<---
-\usepackage{bibentry}
-\usepackage[onehalfspacing]{setspace}
-\usepackage[a4paper]{geometry}
-\geometry{left=3cm,right=3cm,top=2cm, bottom=2cm}
-\pagestyle{scrheadings}%<
-\clearscrheadfoot
-\chead{\leftmark}
-\automark[section]{section} 
-\rohead{\pagemark}
-\title{}
-\author{}
 
 \begin{document}
-\begin{titlepage}
-\date{}
+\titlepg
+{Ein Brief des Kaisers über die Mongolengefahr}
+{2012}
+{Fachbereich Geschichte}
+{Proseminar 53-193 "`Die Invasion der Mongolen -- Ihre Wahrnehmung in Europa anhand ausgewählter Quellen aus dem 13. Jahrhundert}
+{WS 2011/2012}
+{Ingeborg Braisch}
 
-\title{\Large Ein Brief des Kaisers über die Mongolengefahr}
-{\let\newpage\relax\maketitle}
+\tocpaper
 
-\begin{center}
-\vfill
-Hausarbeit\\
-vorgelegt von\\
-Igor Fischer \\
-\null
-Hamburg 2012
-\vfill
-\end{center}
-
-\begin{minipage}{0.5\textwidth}
-\begin{flushleft} 
-Universität Hamburg\\
-Fachbereich Geschichte\\
-Proseminar 53-193 „Die Invasion der Mongolen – Ihre Wahrnehmung in Europa anhand
-ausgewählter Quellen aus dem 13. Jahrhundert“\\
-Wintersemester 2011/12\\
-Dozentin: Dr. Ingeborg Braisch\\
-\end{flushleft}
-\end{minipage}
-\vline
-\begin{minipage}{0.5\textwidth}
-\end{minipage}
-
-\pagenumbering{gobble}
-\end{titlepage}
-
-\tableofcontents
-\thispagestyle{empty}
-\pagenumbering{arabic}
-\newpage
-
-\section*{Einleitung}
-\markboth{Einleitung}{Einleitung}
-\addcontentsline{toc}{section}{Einleitung}
+\closuresection{Einleitung}
 13. September 2011: Angela Merkel ist in der Mongolei und unterzeichnet
 verschiedene Verträge mit lächelnden Gastgebern. Dies ist ein Bild, das ganz treffend
 die Mongolei im 21. Jahrhundert beschreibt. Es ließen sich noch weitere Besuche von
@@ -403,8 +347,7 @@ Endzeit eine Sicht auf die Mongolen entgegen, die diese als Feinde, aber auch al
 Menschen darstellt, die nicht durch übermenschliche Kräfte gesiegt haben, sondern
 durch die Fehler der Gegner bzw. durch militärische Mittel.
 \newpage
-\section*{Schlussbetrachtung}
-\addcontentsline{toc}{section}{Schlussbetrachtung}
+\closuresection{Schlussbetrachtung}
 
 In der
 Quellenbeschreibung wurde die Quelle in ihren Formalien beschrieben und es wurde
@@ -433,7 +376,6 @@ Untergangsstimmung in der Gesellschaft zu schaffen. Die Mongolen sollten als seh
 stark, aber auch menschlich dargestellt werden. Durch die Darstellung der Einheit der
 Mongolen, sollten die Christen indirekt zu einem geeinten Vorgehen gegen die
 Mongolen aufgerufen werden – mit Friedrich II als dem Anführer.
-\addcontentsline{toc}{section}{Literatur}
-%\bibliography
-\printbibliography
+
+\literature
 \end{document}

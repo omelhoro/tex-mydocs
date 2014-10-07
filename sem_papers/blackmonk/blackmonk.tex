@@ -1,77 +1,19 @@
-\documentclass[12pt,headsepline,a4paper]{scrartcl}
-\usepackage[OT2,T1]{fontenc}
-\usepackage[russian,ngerman]{babel}
-\usepackage[
-backend = bibtex8,
-bibencoding = utf8,
-defernumbers=true,
-natbib = true,
-style = verbose-ibid, 
-maxnames = 2,
-minnames = 1,
-backref = true,
-backrefstyle = two, 
-]{biblatex} 
+\documentclass{../../sem_paper}
 \addbibresource{blackmonk.bib}
-\usepackage[utf8]{inputenc}
-\usepackage{scrpage2}  %<---
-\usepackage{bibentry}
-\usepackage[onehalfspacing]{setspace}
-\usepackage[a4paper]{geometry}
-\newcommand\textcyr[1]{{\fontencoding{OT2}\fontfamily{wncyr}\selectfont ``#1''}}
-\geometry{left=3cm,right=3cm,top=2cm, bottom=2cm}
-\pagestyle{scrheadings}%<
-\clearscrheadfoot
-\chead{\leftmark}
-\automark[section]{section} 
-\rohead{\pagemark}
-\title{}
-\author{}
 
 \begin{document}
-\begin{titlepage}
-\date{}
+\titlepg
+{Der mentale Zustand A.V. Kovrins in der Erzählung
+"`Der schwarze Mönch"' von A.P. Čechov}
+{2011}
+{Insitut für Slavistik}
+{Seminar Ib zum Thema "`Die literarische Figur"'}
+{WS 2010/2011}
+{Daniela Chmelik}
 
-\title{\Large Der mentale Zustand A.V. Kovrins in der Erzählung
-„Der schwarze Mönch“ von A.P. Čechov}
-{\let\newpage\relax\maketitle}
+\tocpaper
 
-\begin{center}
-\vfill
-Hausarbeit\\
-vorgelegt von\\
-Igor Fischer \\
-\null
-Hamburg 2011
-\vfill
-\end{center}
-
-\begin{minipage}{0.5\textwidth}
-\begin{flushleft} 
-Universität Hamburg\\
-Institut für Slavistik\\
-Seminar Ib zum Thema „Die literarische Figur“\\
-Wintersemester 2010 / 2011\\
-Frau Chmelik\\
-
-\end{flushleft}
-\end{minipage}
-\vline
-\begin{minipage}{0.5\textwidth}
-\end{minipage}
-
-\pagenumbering{gobble}
-\end{titlepage}
-
-\tableofcontents
-\thispagestyle{empty}
-\pagenumbering{arabic}
-\newpage
-
-
-\section*{Einleitung}
-\markboth{Einleitung}{Einleitung}
-\addcontentsline{toc}{section}{Einleitung}
+\closuresection{Einleitung}
 Der Wahnsinn hat viele Gesichter und viele Ausdrucksmöglichkeiten. Das habe ich im Seminar
 gelernt, wo wir Personen und Erzählungen mit ganz unterschiedlichen Typen von Wahnsinn
 behandelt haben. Vor allen Dingen waren Halluzinationen das hauptsächliche Instrument bei der
@@ -618,6 +560,5 @@ man das Ende auffasst, sind die Halluzinationen schlussendlich positiv oder nega
 insofern interessant, da bei vielen an Größenwahn Leidenden die Megalomanie mit religiösen Inhalt
 ausgefüllt ist.
 
-\addcontentsline{toc}{section}{Literatur}
-\printbibliography
+\literature
 \end{document}
