@@ -1,6 +1,8 @@
 misc/
 cover_letters/
 cv/
+signature.png
+application/
 *.swp
 *.run.xml
 *.aux
